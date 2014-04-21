@@ -1,14 +1,7 @@
 {% extends "wpartners/views/templates/base.html" %}
 {% block content %}
-  <div class="jumbotron">
-    <h1>Welcome to wpartners</h1>
-    <p>Time to start building your site!</p>
-    <p><a class="btn btn-primary btn-lg" href="http://luminusweb.net">Learn more &raquo;</a></p>
-  </div>
-
-  <div class="row-fluid">
-    <div class="span8">
-    {{content|safe}}
-    </div>
-  </div>
+<h1 class="cover-heading">Wilkison Partners</h1>
+<p class="lead">Becoming the World's Finest Small Community Developer</p>
+{% include "wpartners/views/templates/about.html" %}
+{% include "wpartners/views/templates/services.html" %}
 {% endblock %}
