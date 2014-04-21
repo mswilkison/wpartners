@@ -23,9 +23,9 @@
             <div class="navbar-collapse collapse ">
               <ul class="nav navbar-nav">
                 <li class="{{home-selected}}"><a href="{{servlet-context}}/">Home</a></li>
+                <li class="{{about-selected}}"><a href="#projects">Projects</a></li>
                 <li class="{{about-selected}}"><a href="#our-history">Our History</a></li>
                 <li class="{{about-selected}}"><a href="#services">Services</a></li>
-                <li class="{{about-selected}}"><a href="#projects">Projects</a></li>
               </ul>
             </div>
           </div>
@@ -41,6 +41,8 @@
     {% style "/css/bootstrap-theme.min.css" %}
     {% style "/css/bootstrap.min.css" %}
     {% style "/css/screen.css" %}
+    <!-- delete holder.js in production -->
+    {% script "/js/holder.js" %}
     <script src="//code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>
     {% script "/js/bootstrap.min.js" %}
     <script type="text/javascript">

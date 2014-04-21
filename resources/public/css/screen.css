@@ -75,3 +75,20 @@ body {
   }
 
 }
+
+.glyph-featurette {
+  font-size: 10em;
+}
+
+.featurette {
+  text-align: center;
+}
+
+.preview {
+  display: block;
+  margin: auto;
+}
+
+.row {
+  margin-top: 40px;
+}
