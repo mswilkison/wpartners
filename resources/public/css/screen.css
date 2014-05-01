@@ -89,3 +89,7 @@ body {
 .row {
   margin-top: 40px;
 }
+
+#projects, #our-history, #services {
+  padding-top: 40px;
+}
