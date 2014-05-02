@@ -7,9 +7,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <div class="navbar-wrapper">
-      <div class="container">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,14 +26,12 @@
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+    </nav>
 
-    <div class="container" id="cover">
+    <section class="container" id="cover">
       {% block content %}
       {% endblock %}
-    </div>
+    </section>
     <!-- scripts and styles -->
     {% style "/css/bootstrap-theme.min.css" %}
     {% style "/css/bootstrap.min.css" %}
