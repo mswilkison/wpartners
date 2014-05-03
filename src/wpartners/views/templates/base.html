@@ -26,14 +26,14 @@
           </div>
     </nav>
 
-    <article class="container" id="cover">
+    <section class="container" id="cover" role="main">
       {% block content %}
       {% endblock %}
       <hr />
-      <footer>
+      <footer role="contentinfo">
         <p>&copy; Wilkison Partners 2014</p>
       </footer>
-    </article>
+    </section>
 
     <!-- scripts and styles -->
     {% style "/css/bootstrap-theme.min.css" %}
